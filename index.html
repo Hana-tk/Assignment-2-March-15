@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-title" content="Resume">
     <meta name="msapplication-TileImage" content="img/ms144.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
@@ -90,66 +90,66 @@
                 <h5>UX Designer | City of Brantford, September – December 2019</h5>
                 <ul class="card-details">
                     <li>
-                      <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                        chevron_right
-                      </icon><span class="text">Conducted user interviews with car and bus commuters</span>
+                        <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                            chevron_right
+                        </icon><span class="text">Conducted user interviews with car and bus commuters</span>
                     </li>
                     <li>
-                      <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                        chevron_right
-                      </icon><span class="text">Created a prototype on Adobe XD</span>
+                        <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                            chevron_right
+                        </icon><span class="text">Created a prototype on Adobe XD</span>
                     </li>
                     <li>
-                      <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                        chevron_right
-                      </icon><span class="text">Presented final product to stakeholders</span>
+                        <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                            chevron_right
+                        </icon><span class="text">Presented final product to stakeholders</span>
                     </li>
 
                     <h5>UX/UI Designer | Dawn, September 2020– May 2021</h5>
                     <ul class="card-details">
                         <li>
-                          <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                            chevron_right
-                          </icon><span class="text">Collaborated with cross-functional team</span>
+                            <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                                chevron_right
+                            </icon><span class="text">Collaborated with cross-functional team</span>
                         </li>
                         <li>
-                          <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                            chevron_right
-                          </icon><span class="text">Acted as design representative in stakeholder meetings</span>
+                            <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                                chevron_right
+                            </icon><span class="text">Acted as design representative in stakeholder meetings</span>
                         </li>
                         <li>
-                          <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
-                            chevron_right
-                          </icon><span class="text">Created cross-functional prototype</span>
+                            <icon ico="chevron_right" class="au-target material-icons" au-target-id="60">
+                                chevron_right
+                            </icon><span class="text">Created cross-functional prototype</span>
                         </li>
 
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
             </section>
             <section id="experience">
                 <h2>Experience</h2>
@@ -191,6 +191,15 @@
             closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
             draggable: true // Choose whether you can drag to open on touch screens
         });
+
+        window.onload = () => {
+            'use strict';
+
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('./sw.js');
+            }
+        }
 
 
     </script>
